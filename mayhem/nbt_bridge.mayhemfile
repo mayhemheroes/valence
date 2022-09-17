@@ -1,0 +1,7 @@
+project: valence
+target: nbt-bridge
+
+cmds:
+  - cmd: /nbt_bridge
+  - cmd: /nbt_bridge_no_inst @@
+    libfuzzer: false
